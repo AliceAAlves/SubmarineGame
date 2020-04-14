@@ -1,0 +1,11 @@
+Creator: Alice Alves
+
+About: Developed as coursework for module Graphics 2, during the 3rd year of course Computer Graphics, Imaging and Multimedia at University of East Anglia. Developed in C++ using OpenGL.
+
+Controls:
+* WASD - control the movement of the subarime (forward/backward/turn)
+* up/down keys - emerge/submerge submarine
+* space - fire torpedo
+* 1/2/3/4 - change camera view (1: front view, 2: back view, 3: periscope view, 4: top view)
+
+Objective of the game is to collect the 17 collectables (plastic bags). Only 4 collectables are in the scene at a time. As more are collected, other will appear. There is an enemy submarine that patrols one side of the lake. If the player is in its field of vision it will stop moving and start firing torpedos at the player. The player has a health bar and it will be game over if the health bar decreases to 0. The player can fire torpedos back at the enemy submarine which will sink to the bottom when defeated.
